@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Mídia e Transitividade</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rodrigo Esteves de Lima-Lopes || rll307@unicamp.br" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/fc.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/viz/viz.js"></script>
+    <link href="libs/DiagrammeR-styles/styles.css" rel="stylesheet" />
+    <script src="libs/grViz-binding/grViz.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="libs/datatables-binding/datatables.js"></script>
+    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+    <link href="libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+    <script src="libs/crosstalk/js/crosstalk.min.js"></script>
+    <script src="libs/kePrint/kePrint.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Mídia e Transitividade
+## Estudo Preliminar do canal ‘My News’
+### Rodrigo Esteves de Lima-Lopes || <a href="mailto:rll307@unicamp.br" class="email">rll307@unicamp.br</a>
+### Universidade Estadual de Campinas/CNPq
+### 04.06.2020 || 1º Ciclo de debates em LSF
+
+---
+
+class: inverse, center, middle, animated, fadeIn
+
+
+&lt;style&gt;
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+&lt;/style&gt;
+&lt;style&gt;
+.pre2 {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 3em 0px;
+    margin-top: 0em;
+    margin-right: 0px;
+    margin-bottom: 0em;
+    margin-left: 0px;
+}
+&lt;/style&gt;
+
+
+
+# Objetivos
+
+???
+- Agradecer ao Grupo SAL e ao Grupo de Trabalho de LSF na ANPOLL
+- Agradecer à professora Bortoluzzi e ao professor Erick Callegaro pelas possibilidades de interlocução
+- Agradecer às e aos presentes pela possibilidade da conversa e interlucução
+
+---
+class: animated, fadeIn
+
+
+# Ou aquilo que **pretendemos**
+--
+
+
+# Linguísticos
+- Discutir alguns resultados iniciais sobre a análise de `transitividade` em textos midiáticos falados
+  - My News: Um canal jornalístico independente do YouTube
+--
+
+- Classificação de `padrões` gramaticais em processos
+  - `Ter`: Processo Existencial
+--
+
+
+# Metodológicos
+- Discutir os procedimentos de `coleta` e `análise de dados`
+  - Refletir sobre as possibilidades oferecidas pelo uso de `computadores` na pesquisa em LSF
+
+???
+- O objetivo ele acaba sendo duplo. De maneira geral, sempre busquei associar o LSF e a pesquisa na área de corpus
+- Os resultados são iniciais e estão apenas direcionados para o reconhecimento das primeiras estruturas
+---
+class: inverse, center, middle, animated, fadeIn
+
+# Fundamentação teórica: Quem nos influenciou
+
+---
+class: center, animated, fadeIn
+--
+![Livros Halliday](./imagens_externas/01.png)
+--
+&lt;img src="./imagens_externas/02.png" width="77%" style="display: block; margin: auto;" /&gt;
+???
+1. Dentro dos estudos de transitividade, naturalmente, não podemos deixar de destacar as 5 edições da gramática
+  - Explicar que eu considero o livro de 1978 uma versão preliminar
+2. Entre as edições específicas é sempre bom destacar o livro de Halliday e Matthiessen (1999)
+3. As importantes contribuições de Geoff Thompson
+4. O Projeto SAL que desde a sua origem tem analisado a transitividade em LP
+  - Recente publicação do grupo organisado pela professoras Sara Cabral e Leila Barbara
+  
+---
+class:  animated, fadeIn
+# Estudos em português
+
+--
+- Cabral &amp; Barbara (2015) e Cabral (2018): `Análise` de processos comportamentais;
+
+- Silva (2019): Estrutura dos `escopos` do verbo dar;
+
+- Lima e Barros (2018): Orações `existenciais` em narrativas;
+
+- Fuzer, Olioni e Cabral (2018): Análise de `representações` da tragédia de Santa Maria;
+
+- Muniz da Silva e Soares (2018): Processos `mentais` em anúncios pessoais;
+
+- Pimenta (2019): `Transitividade` e representações de `racismo`;
+
+- Lima-Lopes e Pimenta (2017): `Avaliatividade` e transitividade;
+
+- Vian Jr. e Vasconcelos (2017): `Avaliatividade` e transitividade;
+
+- Lima-Lopes (2014): Transitividade e `discurso` verde. 
+
+???
+- Vale lembrar que estas são apenas publicações que tivemos nos últimos três anos dentro do âmbito do projeto SAL e seus participantes
+- Há diversos outros estudos que poderíamos citar aqui
+- Destaque especial para o trabalho de Muniz da Silva e Soares (2018), que estudam processos mentais em português
+---
+class: inverse, center, middle, animated, fadeIn
+
+# Desenhando e realizando o experimento
+
+---
+class:  animated, fadeIn
+# Fluxograma de trabalho
+
+.center2[
+<div id="htmlwidget-343cce439d14fe6861d6" style="width:504px;height:504px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-343cce439d14fe6861d6">{"x":{"diagram":"\ndigraph graph2 {\n\ngraph [layout = dot,overlap= true]\n\n# node definitions with substituted label text\nnode [shape = rectangle]\na [label = \"Canal midiático\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\nb [label = \"Natureza dos dados\", fontsize = 30, fontname = Helvetica, fontcolor= Blue, fontcolor= Blue]\nc [label = \"Oral\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\nd [label = \"Escrito\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\ne [label = \"Forma de coleta\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\nf [label = \"Recursos para coleta\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\ng [label = \"Processamento dos dados\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\nh [label = \"Visualização e análise\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\ni [label = \"Resultados\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\n\na -> b \nb -> {c d}\nc -> e\ne -> f\nf -> {g h}\ng -> h\n{b e g h} -> i\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+]
+
+???
+- A ideia de desenhar o estudo está relacionada à necessidade de se observar quais passos metodológicos.
+- Especialmente importante se pensarmos em coletas de dados automatizadas e na escrita de programas desenhados para a análise, como é o caso deste estudo
+
+---
+class:  animated, fadeIn
+
+# Canal pesquisado e dados coletados
+
+--
+## Canal
+- `My News`: Canal de notícias `independente` no YouTube&lt;sup&gt;1&lt;/sup&gt;
+  - Transmissão `síncrona` e disponibilidade `assíncrona`
+  - Presente em `outras mídias` como Facebook&lt;sup&gt;2&lt;/sup&gt;, Twitter&lt;sup&gt;3&lt;/sup&gt; e Instagram&lt;sup&gt;4&lt;/sup&gt;.
+
+--
+
+## Dados de pesquisa
+
+- 61 vídeos transcritos `automaticamente`
+- Publicados entre 12/05/2020 e 26/05/2020
+- Tipos: 65164 / Formas: 249755
+
+  .footnote[
+[1] Acessível em https://www.youtube.com/channel/UCUM4-KGZEXC2pk6zRDL9jMQ
+
+[2] Acessível em https://www.facebook.com/pg/canalmynews/
+
+[3] Acessível em https://twitter.com/canalmynews
+
+[4] Acessível em https://www.instagram.com/canalmynews/
+]
+
+???
+Como veremos a seguir a coleta dos dados se fez automáticamente pelo sistema do YouTube
+
+---
+class:  animated, fadeIn
+# Coleta de dados
+
+--
+- Python: youtube-dl&lt;sup&gt;*&lt;/sup&gt;
+  - Download de transcrições automáticas e metadados
+.footnote[[*] Acessível em: https://youtube-dl.org/]
+
+--
+
+&lt;video width="100%" height="100%" autoplay controls loop&gt;
+&lt;source src="imagens_externas/mv_01.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+
+???
+Foi escrito um script que interage com o pacote YouTube-dl do Python. Esse pacote é capaz de baixar dados públicos da API do YouTube. 
+
+---
+class:  animated, fadeIn
+# Questões o download automático
+
+Precisamos levar em conta algumas questões relacionadas ao download automático de transcrições
+--
+.pull-left[
+## Vantagens
+
+1. `Facilidade` no acesso aos dados;
+
+1. `Economia de tempo` dedicado à transcrição;
+
+1. Dados retirados de `fontes originais`;
+
+1. `Consistência` no processo de transcrição.]
+--
+.pull-right[
+## Desvantagens
+
+1. Agregam-se à pesquisa `erros de transcrição`;
+
+1. Necessidade de `linguagem de programação`;
+
+1. `Limpeza` de dados (Time Stamps);
+
+1. *Consistências* também se manifestam nos `erros`.]
+
+???
+Essa reflexão é importante porque nenhum das coletas é livre de problemas. Acredito que uma das grandes questões da análise é o acesso e transcrição de dados orais. Isso explica porque boa parte de nossos trabalhos (os meus incluídos, certamente) focam na linguagem escrita.
+
+---
+class:  animated, fadeIn
+# Os arquivos antes da Limpeza
+
+&lt;img src="./imagens_externas/03.png" width="1676" style="display: block; margin: auto;" /&gt;
+
+???
+Imaginem realizar essa limpeza manualmente? 61 vídeos de uma hora em média cada?
+
+---
+class:  animated, fadeIn
+
+# Limpando os dados
+
+
+--
+- Python: biblioteca `WebVTT`
+- R: `Reticulate`
+  - Funções escritas especialmente para este estudo
+
+--
+
+## Download
+
+```bash
+youtube-dl -o {fields} -i -v -w --skip-download 
+--write-auto-sub --sub-lang pt{channel_url} 
+--dateafter 20200501 
+--convert-subs vtt
+```
+
+## Limpeza
+
+```python
+from webvtt import WebVTT
+def caption_to_vector(file):
+  x = WebVTT().read(file)
+  txt = [caption.text for caption in x]
+  return(txt)
+```
+
+???
+1. O comando para download interage com a plataforma salvando meus dados. Onde *fields* são os campos de informação que eu busco. Nesse caso visualizações, datas de publicação, etc. 
+2. O comando para limpeza lê os arquivos e os salva em sistema sem as marcas temporais
+
+---
+
+class:  animated, fadeIn
+# Processando os dados
+--
+
+
+- Etiquetagem automática (POS - Part of Speech)
+  - Linguagem `R`
+  - Pacotes: UDPipe&lt;sup&gt;1&lt;/sup&gt; e Textrank&lt;sup&gt;2&lt;/sup&gt;
+
+.footnote[
+[1] Acessível em https://github.com/bnosac/textrank
+
+[2] Acessível em https://bnosac.github.io/udpipe/en/index.html
+]
+--
+<div id="htmlwidget-5bd82b82624741b459d7" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5bd82b82624741b459d7">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"],["Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1","Mynews1"],["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16-17","16","17","18","19"],["e","aí","em","portugal","seria","realmente","muito","importante","a","gente","ter","essa","essa","esse","incentivo","à","a","a","indústria","nacional"],["e","aí","em","portugal","ser","realmente","muito","importante","o","gente","ter","esse","essa","esse","incentivo",null,"a","o","indústria","nacional"],["CCONJ","ADV","ADP","NOUN","AUX","ADV","ADV","ADJ","DET","NOUN","VERB","DET","NOUN","DET","NOUN",null,"ADP","DET","NOUN","ADJ"],["4","4","4","21","6","11","8","11","10","11","4","13","21","15","21",null,"18","18","15","18"],["cc","advmod","case","obl","cop","advmod","advmod","amod","det","nsubj","acl","det","obl","det","nsubj",null,"case","det","nmod","amod"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>doc_id<\/th>\n      <th>token_id<\/th>\n      <th>token<\/th>\n      <th>lemma<\/th>\n      <th>upos<\/th>\n      <th>head_token_id<\/th>\n      <th>dep_rel<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"order":[],"autoWidth":false,"orderClasses":false,"columnDefs":[{"orderable":false,"targets":0}],"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+
+???
+A tabela mostra a natureza dos dados oferecidos pelo pacote etiquetador.
+- Temos a classe gramatical
+- O texto lematizado
+- O texto em formato original
+- O arquivo e a identidade dada a cada palavra individualmente
+Foi omitida uma coluna com a classificação gramatical detalhada e um coluna que traz um exemplo da palavra. Isso por questão de espaço
+---
+class:  animated, fadeIn
+
+#Critérios de análise
+
+--
+Os `verbos` precedidos de um `sustantivo` com *colocação* mais frequente (chi-quadrado)
+
+```r
+sub_verb &lt;- keywords_phrases(x = MyNews$upos, 
+                             term = tolower(MyNews$token),
+                             pattern = "NOUN+VERB", 
+                             is_regex = TRUE, detailed = FALSE)
+sub_verb&lt;- sub_verb %&gt;%
+  mutate(freq_pct = freq / sum(freq)) %&gt;% 
+  arrange(desc(freq_pct))
+sub_verb$freq_pct&lt;- sub_verb$freq_pct*100
+```
+
+--
+Os `verbos` precedidos de um `sustantivo` e um `advérbio` com *colocação* mais frequente (chi-quadrado)
+
+
+```r
+sub.adv.verb &lt;- keywords_phrases(x = MyNews$upos,
+                                 term = tolower(MyNews$token),
+                                 pattern = "NOUN+ADV+VERB", 
+                                 is_regex = TRUE, detailed = FALSE)
+sub.adv.verb&lt;- sub.adv.verb %&gt;%
+  mutate(freq_pct = freq / sum(freq)) %&gt;% 
+  arrange(desc(freq_pct))
+sub.adv.verb$freq_pct&lt;- sub.adv.verb$freq_pct*100
+```
+
+???
+- No primeiro grupo, trouxemos todos os substantivos seguidos e um verbo
+- No segundo, substantivos seguidos de um verbo com um advérbio intercalado
+Neste trabalho parcial, nos ateremos a primeira
+
+---
+class: inverse, center, middle, animated, fadeIn
+
+# Resultados
+
+---
+class: animated, fadeIn
+
+# Verbos precedidos de substantivos
+
+--
+`Gente` é a colocação mais frequente em diversos contextos
+
+&lt;img src="02_files/figure-html/fig03 -1.gif" style="display: block; margin: auto;" /&gt;
+
+---
+class: animated, fadeIn
+
+# Verbos precedidos de substantivos
+
+`Gente` é a colocação mais frequente em diversos contextos
+
+
+&lt;img src="./imagens_externas/05.png" width="4015" style="display: block; margin: auto;" /&gt;
+
+???
+- Algo que chama a atenção é o número de vezes que **gente** aparece como colocado de um verbo
+-  Isso fez com que a estrutura **gente"+adv+verbo** e **gente+verbo** sejam o foco deste e trabalhos futuros
+---
+class: animated, fadeIn
+
+# Representação gramatical
+--
+
+.center2[
+<div id="htmlwidget-e412b4c812ba1c1856be" style="width:504px;height:504px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e412b4c812ba1c1856be">{"x":{"diagram":"digraph {\n\ngraph [layout = dot]\n\n# node definitions with substituted label text\nnode [shape = rectangle, style = filled, fillcolor = Linen]\na [label = \"Pronome\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\nb [label = \"A gente\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\nc [label = \"Substantivo \", fontsize = 30, fontname = Helvetica, fontcolor= Red]\nd [label = \"Determinante\", fontsize = 30, fontname = Helvetica, fontcolor= Red]\ne [label = \"Nome\", fontsize = 30, fontname = Helvetica, fontcolor= Red]\nf [label = \"Pacote lexical\", fontsize = 30, fontname = Helvetica, fontcolor= Blue]\ng [label = \"A\",  fontsize = 30, fontname = Helvetica, fontcolor= Red]\nh [label = \"gente\",  fontsize = 30, fontname = Helvetica, fontcolor= Red]\n\na -> f\nf -> b\nc -> d\nd -> g\nc -> e\ne -> h\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+]
+
+--
+
+- O etiquetador utilizado analisa cada item em separado e é treinado com `linguagem escrita`
+  - Dificuldade de acesso à dados `orais` e transcritos de forma `consistente`
+
+---
+class: animated, fadeIn
+
+# A gente - Exemplos de classificação
+
+--
+
+&lt;table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
+&lt;caption&gt;A gente + tem&lt;/caption&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Ex &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Texto &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; (…) fora essa semana né a gente tem	mercado em alta tem petróleo em alta empresas voltando abrindo como é que tá isso (…) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; as condições demográficas que a gente tem (…) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; (…) a gente tem essa união que é isto (…) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; (…) a gente tem essas competências de usar da melhor forma para o bem individual (…) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
+&lt;caption&gt;A gente + teve&lt;/caption&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Ex &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Texto &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; (…)	a gente teve de fato é todo esse fechamento acontecendo agora é hoje a gente tem uma um (…) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; a gente teve	um impacto principalmente no setor de tecidos &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; (…) a	gente tinha	aí recentemente &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; (…) a gente tinha	ali uma investigação (…) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+???
+- Penso aqui com meus botões, **ter** nestes exemplos funciona como um processo relacinal ou como um processo existêncial? 
+- *Ter* pode ser um exemplo de processo exixtencial em português brasileiro falado?
+---
+class: animated, fadeIn
+
+# Relacional ou existencial?
+
+Português como uma língua `pró-drop`
+
+.center2[
+<div id="htmlwidget-a9b377e608b18657fe15" style="width:504px;height:504px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a9b377e608b18657fe15">{"x":{"diagram":"digraph {\n\ngraph [layout = dot]\n\n# node definitions with substituted label text\nnode [shape = rectangle, style = filled, fillcolor = Linen]\na [label = \"A gente tem mercado em alta tem petróleo em alta\", fontsize = 22, fontname = Helvetica, fontcolor= Blue]\nb [label = \"ø Tem mercado em alta tem petróleo em alta\", fontsize = 22, fontname = Helvetica, fontcolor= Red]\nc [label = \"Há mercado em alta tem petróleo em alta\", fontsize = 22, fontname = Helvetica, fontcolor= Darkgreen]\n\na -> b\nb -> c\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+]
+
+
+---
+
+class: animated, fadeIn
+
+# Relacional ou existencial?
+
+Português como uma língua `pró-drop`
+
+.center2[
+<div id="htmlwidget-ff064b86ca68b4b24c5f" style="width:504px;height:504px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ff064b86ca68b4b24c5f">{"x":{"diagram":"digraph {\n\ngraph [layout = dot]\n\n# node definitions with substituted label text\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\na [label = \"A gente teve de fato é todo esse fechamento\", fontsize = 22, fontname = Helvetica, fontcolor= Blue]\nb [label = \"ø Teve de fato é todo esse fechamento \", fontsize = 22, fontname = Helvetica, fontcolor= Red]\nc [label = \"Há de fato é todo esse fechamento \", fontsize = 22, fontname = Helvetica, fontcolor= Darkgreen]\n\na -> b\nb -> c\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+]
+
+???
+O *probing* (Halliday 1994) nos mostra que que é possível substituir **ter** por **haver** ou mesmo retirar o sujeito completamente mantendo o verbo **ter**.
+---
+class: animated, fadeIn
+
+# Novidade?
+
+--
+
+- Português é uma língua `pro-drop`
+  - `Não há` grande novidade na omissão do sujeito
+  - Não há `grande novidade` na manutenção do sujeito
+  
+  
+--
+.pre2[
+.center2[
+<div id="htmlwidget-32f0c7fa5382e0406ced" style="width:504px;height:504px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-32f0c7fa5382e0406ced">{"x":{"diagram":"digraph {\n\ngraph [layout = dot]\n\n# node definitions with substituted label text\nnode [shape = rectangle, style = filled, fillcolor = Linen]\n\na [label = \"A gente\", fontsize = 25, fontname = Helvetica, fontcolor= Blue]\nb [label = \"Dummy subject\", fontsize = 25, fontname = Helvetica, fontcolor= Red]\n\na -> b\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+]
+]
+
+???
+- Não há grande novidade em omitir o sujeito ou sugerir que ele seja um sujeito **dummy** em português. Mas isso não me parece uma explicação completa. 
+---
+class: animated, fadeIn
+
+# Todavia …
+
+--
+## Uma questão de estrutura
+
+- `A gente` não é necessário para realização gramatical do sujeito
+  - Desinência de `número e pessoa`
+    - Não é um `sujeito dummy` propriamente dito
+
+--
+
+## Uma questão de escolha
+
+- O jornalista `escolhe` marcar o sujeito em um processo `existêncial`
+- Questão `discursiva`
+  - Há `ênfase` ou `marcação` na produção oral no momento de produção
+  - Todos os usos de 'A gente' se referem a construção `inclusiva`
+
+
+???
+- Isso porque diferentemente do inglês (que não é pro-drop) e traz muitos sujeitos dummy, nosso pronome não é necessário para a indicação da pessoa, que poderia ser inferida apenas pelo verbo. 
+- Uma questão importante é que o sujeito nesse contexto poderia ter sido omitido também na questão oral
+  - Parece haver uma importante questão de escolha aqui, que recai sobre a ênfase prosódica do falante no momento da fala
+    - Ou seja, temos uma escolha multimodal, na qual o modo (prosódia) que busca ênfase interage com o modo (fala) e tem um impacto na gramática das escolhas esse sujeito. 
+
+---
+class: animated, fadeIn
+
+# Uma vez que ...
+
+- Há variação no significado do pacote pronominal quando colocado de outros processos
+  - Materiais
+  - Verbais
+    - `A gente` representa a emissora
+      - `Exclusão` do expectador
+
+--
+## Alguns exemplos
+
+&lt;table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;"&gt;
+&lt;caption&gt;A gente + outros processos&lt;/caption&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Ex &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; SN &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; SV &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; a gente &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; falou	sobre isso mas eu acho que ninguém tá falando &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; a gente &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; falou	da situação das companhias aéreas &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; a gente &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; dá	início aqui na nossa conversa &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;border-right:1px solid;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; a gente &lt;/td&gt;
+   &lt;td style="text-align:left;width: 33em; "&gt; dá	de boas-vindas &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+???
+Outro ponto a ser colocado é que, quando **a gente** coloca com outros verbos, ele possui diferentes significados. Nos exemplos acima, ele significa **nos os jornalistas**
+
+
+---
+class: inverse, center, middle, animated, fadeIn
+
+# Por fim
+
+---
+class: animated, fadeIn
+
+#Considerações (…) não tão finais
+
+--
+
+## Quanto ao desenho e método
+O método se mostrou relevante para a pesquisa das estruturas linguísticas. Isso em especial na classificação das estruturas mais comuns. Todavia:
+- Uma questões técnicas de ferramenta necessitam de especial atenção do pesquisador
+  - Revisão quando possível
+
+--
+
+## Quanto a análise dos dados
+A estrutura do sujeito em `ênfase` nos `processos existênciais` pode ser:
+  - Um caminho relevante para a exploração elementos gramaticais-discursivos do português brasileiro
+    - A questão da classificação ainda está a ser pensada
+
+---
+class: middle, animated, fadeIn
+
+## O que precisa ser feito
+- Análise mais minuciosa dos padrões gramaticais de `ter` no contexto estudado
+- Aplicação de testes de co-relação na análise nas ocorrências de `gente+verbo`, de forma a avaliar a não aleatoriedade da associação
+
+---
+
+class: inverse, middle, animated, fadeIn
+
+## Financiamento
+&lt;img src="./imagens_externas/cnpq.png" width="300px" style="display: block; margin: auto;" /&gt;
+
+## Obrigado! 
+Rodrigo Esteves de Lima-Lopes
+
+[rll307@unicamp.br](rll307@unicamp.br)
+
+[http://www.iel.unicamp.br/rll307](http://www.iel.unicamp.br/rll307)
+
+&lt;img src="./imagens_externas/negativo.png" width="300px" style="display: block; margin: auto;" /&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
