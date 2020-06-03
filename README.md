@@ -1,2 +1,4 @@
 # keynote_2020_1
-Lecture SAL 2020
+
+Lecure on online SAL Meeting in 2020. Slides in *Portuguese*
+Link for the presentation:
