@@ -73,11 +73,7 @@ h1, h2, h3 {
 .title-slide {
   background-color: #121316;
 }
-.title-slide {
-  background-image: url("http://www2.iel.unicamp.br/rll307/wp-content/uploads/2020/06/logos_negativos_cnpq-1.png");
-  background-position: 95% 5%;
-  background-size: 8cm;
-}
+
 .title-slide h1  {
   color: #ff5f0f;
   font-size: 50px;
@@ -94,6 +90,11 @@ h1, h2, h3 {
   margin-left: 40px;
   margin-top: -25px;
   padding-bottom: -20px;
+}
+.title-slide {
+  background-image: url("http://www2.iel.unicamp.br/rll307/wp-content/uploads/2020/06/logos_negativos_cnpq-1.png");
+  background-position: 95% 5%;
+  background-size: 9cm;
 }
 .title-slide h3  {
   color: #b7b7b7;
